@@ -69,7 +69,7 @@ export default function UserScreen({navigation}){
                     right={<TextInput.Icon icon={showPass ? "eye" : "eye-off"} onPress={()=>setShowPass(!showPass)} />}
                 />
                 <Button
-                    style={{ marginTop: 20, backgroundColor: 'orange' }}
+                    style={{ marginTop: 20, backgroundColor: '#A3DAB1' }}
                     icon="login"
                     mode="outlined"
                     onPress={handleSignIn}
@@ -77,7 +77,7 @@ export default function UserScreen({navigation}){
                     Iniciar Sesión
                 </Button>
                 <Button
-                    style={{ marginTop: 20, backgroundColor: 'yellow' }}
+                    style={{ marginTop: 20, backgroundColor: '#FFD700' }}
                     icon="account"
                     mode="outlined"
                     onPress={handleCreateAccount}
